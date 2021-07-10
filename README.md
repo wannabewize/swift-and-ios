@@ -1,54 +1,39 @@
 # iOS and Swift Development
 
-## 01. Swift - 데이터 다루기
+## 01. 데이터 다루기
 
-### 기본 타입
+Swift의 기본 타입과 변수, 상수
 
-### 커스텀 타입
+## 02. 데이터 출력 앱 작성하기(iOS)
 
-## 02. iOS - 뷰와 데이터
+아웃렛을 이용해서 데이터 출력하기
 
-### UIKit
+## 03. 함수
 
-### SwiftUI
+## 04. 컨트롤과 이벤트(iOS)
 
-## 03. Swift - 조건문
+## 05. 미니 프로젝트 : ColorSlider
 
-## 04. Swift - 함수
+## 06. 구조체
 
-### 함수 사용하기
+## 07. 레이아웃(iOS)
 
-### 함수 선언
+## 08. 콜렉션
 
-### 함수 반환
+## 09. 테이블 뷰(iOS)
 
-### 함수 파라미터
+## 10. 미니 프로젝트 : MovieList
 
-### 커스텀 타입과 메소드
+## 11. 옵셔널
 
-### 초기화
+## 12. 내비게이션으로 씬 전환(iOS)
 
-## 05. iOS - 컨트롤과 액션
+## 13. 커스텀 타입
 
-## 06. iOS App - ColorSlider
+## 14. 미니 프로젝트 : MovieListAndDetail
 
-## 07. Swift - 옵셔널
+## 15. Protocol
 
-## 08. Swift - 콜렉션
+## 16. Closure
 
-## 09. Swift - 제어문, 반복문
-
-## 10. iOS - 테이블 뷰
-
-## 11. iOS - AutoLayout
-
-## 12. Swift - Protocol
-
-## 13. iOS - Custom Cell
-
-## 14. iOS - App Navigation
-
-## 15. Swift - Closure
-
-## 16. iOS - Network
-
+## 17. ErrorHandling
