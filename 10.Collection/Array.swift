@@ -5,17 +5,14 @@
 // 배열과 배열 타입
 let intArray = [1, 2, 3, 4, 5]
 let strArray : [String] = ["A", "B", "C"]
-let floatArray = Array<Float>([1.1, 2.2, 3.3])
 
 print("== 배열 생성")
 print("intArray :", intArray)
 print("strArray :", strArray)
-print("floatArray :", floatArray)
 
 // 빈 배열 생성
 var emptyArray : [Int] = []
 var emptyArray2 = [Double]()
-var emtpyArray3 = Array<String>()
 
 // 원소 갯수
 print("\n== 원소 갯수")
@@ -30,20 +27,25 @@ print("emptyArray isEmpty : ",emptyArray.isEmpty)
 
 // 배열 내용 접근
 let element1 = intArray[0] // 1
-let element2 = floatArray[1] // 2.2
+let element2 = strArray[1] // 2.2
 print("\n== 인덱스로 접근하기(subscript)")
 print("intArray[0] :", element1)
-print("floatArray[1] :", element2)
+print("strArray[1] :", element2)
+
+// 반복문과 배열
+for item in strArray {
+    print("For and Array ", item)
+}
 
 // 인덱스가 벗어나면 에러 - fatal error: Index out of range
 // let element3 = strArray[3]
 
-// 첫 원소, 마지막 원소
-let element4 = floatArray.first
-let element5 = strArray.last
+// 첫 원소, 마지막 원소 - 옵셔널 타입
+let element4: Int? = intArray.first
+let element5: String? = strArray.last
 print("\n== 첫 원소, 마지막 원소")
-print("floatArray.first :", element4)
-print("strArray.last :", element5)
+print("intArray.first :", element4!)
+print("strArray.last :", element5!)
 
 print("\n== 배열 내 원소 포함 여부 확인")
 // 원소 포함 여부
@@ -66,31 +68,15 @@ print("editableArray.append(5): ", editableArray)
 editableArray.insert(4, at: 3) // [1, 2, 3, 4, 5]
 print("editableArray.insert(4, at: 3): ", editableArray)
 
-// + 연산자를 이용해서 배열 덧붙이기 - 새로운 배열 생성
-print("\n== 배열간 + 연산")
-let appendedArray = editableArray + [6] // [1, 2, 3, 4, 5, 6]
-print("editableArray + [6]:",appendedArray)
-// += 연산자를 이용해서 원래 배열에 덧붙이기
-editableArray += [6, 7] // [1, 2, 3, 4, 5, 6, 7]
-print("editableArray += [6, 7]:",appendedArray)
-
 // 삭제하기
 print("\n== 배열 내 원소 삭제")
-editableArray.removeLast() // 7
-print("editableArray.removeLast() : ",editableArray) // [1, 2, 3, 4, 5, 6]
+editableArray.removeLast() // 5
+print("editableArray.removeLast() : ",editableArray) // [1, 2, 3, 4]
 
 // index 2 원소 지우기
 editableArray.remove(at:2) // 3
-print("editableArray.remove(at:2) : ", editableArray) // [1, 2, 4, 5, 6]
+print("editableArray.remove(at:2) : ", editableArray) // [1, 2, 4]
 
 // 배열 내 원소 변경
-print("intArray : ", editableArray) // [1, 2, 4, 5, 6]
-print("intArray[3] : ", editableArray[3]) // 5
 editableArray[2] = 3
-print("intArray : ", editableArray) // [1, 2, 3, 5, 6]
-
-// 범위를 이용해서 배열 내 원소 변경
-editableArray[3..<5] = [4, 5, 6]
-print("After [3..<5] = = [4, 5, 6] : ", intArray) // [1, 2, 3, 4, 5, 6]
-
-
+print("intArray : ", editableArray) // [1, 2, 3]

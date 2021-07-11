@@ -37,7 +37,6 @@ Swift의 기본 타입과 변수, 상수
 
 ## 07. 레이아웃(iOS)
 
-## 08. 콜렉션
 
 ## 09. 테이블 뷰(iOS)
 
@@ -48,6 +47,13 @@ Swift의 기본 타입과 변수, 상수
 - Optional : 옵셔널 타입, IUO
 - Unwrapping : 언래핑 - 옵셔널 타입의 값 얻기, if-let 바인딩, 강제 언래핑
 - OptionalChain : 옵셔널 체인
+
+## 10. 콜렉션
+
+- Array : 배열
+- Dictionary : 딕셔너리
+- ComplexCollection : 복합 콜렉션 구조
+- CustomTypeAndCollection : 커스텀 타입과 콜렉션
 
 ## 12. 내비게이션으로 씬 전환(iOS)
 
