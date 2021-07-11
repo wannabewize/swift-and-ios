@@ -43,7 +43,11 @@ Swift의 기본 타입과 변수, 상수
 
 ## 10. 미니 프로젝트 : MovieList
 
-## 11. 옵셔널
+## 09. 옵셔널
+
+- Optional : 옵셔널 타입, IUO
+- Unwrapping : 언래핑 - 옵셔널 타입의 값 얻기, if-let 바인딩, 강제 언래핑
+- OptionalChain : 옵셔널 체인
 
 ## 12. 내비게이션으로 씬 전환(iOS)
 
