@@ -16,6 +16,14 @@ Swift의 기본 타입과 변수, 상수
 
 ## 03. 함수
 
+- Function : 함수 정의와 호출
+- Parameter : 함수 파라미터
+- DefaultValue : 기본값이 설정된 함수 파라미터
+- VariadicParameter : 가변길이 파라미터
+- Overloading : 이름이 같은 함수
+- NestedFunction : 함수 내 함수 정의
+
+
 ## 04. 컨트롤과 이벤트(iOS)
 
 ## 05. 미니 프로젝트 : ColorSlider
