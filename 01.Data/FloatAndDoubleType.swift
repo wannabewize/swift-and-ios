@@ -1,5 +1,6 @@
 /*
 * 실수형 값을 다루는 타입은 Float, Double이 있다.
+* Float타입의 크기는 4byte, Double 타입의 크기는 8byte
 */
 
 // 실수형 타입
