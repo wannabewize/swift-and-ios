@@ -23,12 +23,16 @@ Swift의 기본 타입과 변수, 상수
 - Overloading : 이름이 같은 함수
 - NestedFunction : 함수 내 함수 정의
 
-
 ## 04. 컨트롤과 이벤트(iOS)
 
 ## 05. 미니 프로젝트 : ColorSlider
 
-## 06. 구조체
+## 06. 커스텀 타입
+
+- Struct : 구조체, 프로퍼티
+- StructAndMethod : 구조체와 메소드, Mutating
+- Class : 클래스 정의, 프로퍼티와 메소드
+- ComplexType : 복합 타입 정의와 객체 생성. 사용
 
 ## 07. 레이아웃(iOS)
 
