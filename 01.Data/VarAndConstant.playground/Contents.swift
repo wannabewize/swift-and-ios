@@ -27,6 +27,8 @@ var value1 = 10
 // 변수의 값은 변경 가능
 value1 = 20
 
+print("var-value1 :", value1)
+
 // 초기화되지 않은 변수 사용은 에러
 var value2 : Int
 // error: variable 'value2' used before being initialized
@@ -44,10 +46,3 @@ let `var` = "Variable"
 
 print("constant name defult:", `default`)
 print("constant name var:", `var`)
-
-// 한글/유니코드 변수/상수 이름 가능
-let 상수 = "constant"
-print("상수 :", 상수)
-
-let 🤝 = "handshake"
-print("🤝 is", 🤝)

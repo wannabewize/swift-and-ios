@@ -4,6 +4,12 @@
 
 Swift의 기본 타입과 변수, 상수
 
+- VarAndConstant : 변수와 상수
+- IntType : 정수형 타입
+- StringType : 문자열 타입
+- FloatDoubleType : 실수형 타입
+- RangeType : 범위
+
 ## 02. 데이터 출력 앱 작성하기(iOS)
 
 아웃렛을 이용해서 데이터 출력하기
