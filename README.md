@@ -41,11 +41,11 @@ Swift의 기본 타입과 변수, 상수
 
 ## 07. 레이아웃(iOS)
 
+- LayoutExample : Constraint를 이용한 레이아웃, 스택뷰, 이미지 애셋
 
-## 09. 테이블 뷰(iOS)
+## 08. 미니 프로젝트 : ColorSlider
 
-
-## 10. 미니 프로젝트 : MovieList
+- ColorSlider : 슬라이더를 이용해서 R-G-B 방식으로 색 설정하기
 
 ## 09. 옵셔널
 
@@ -59,6 +59,8 @@ Swift의 기본 타입과 변수, 상수
 - Dictionary : 딕셔너리
 - ComplexCollection : 복합 콜렉션 구조
 - CustomTypeAndCollection : 커스텀 타입과 콜렉션
+
+## 11. 테이블 뷰
 
 ## 12. 내비게이션으로 씬 전환(iOS)
 
