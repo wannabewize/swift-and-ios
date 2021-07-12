@@ -62,14 +62,9 @@ Swift의 기본 타입과 변수, 상수
 
 ## 11. 테이블 뷰
 
-## 12. 내비게이션으로 씬 전환(iOS)
+- TableExample : 테이블 뷰 예제
 
-## 13. 커스텀 타입
+## 12. 미니 프로젝트 : MovieList
 
-## 14. 미니 프로젝트 : MovieListAndDetail
+- MovieListApp : 커스텀 타입으로 데이터 정의, 영화 제목,감독,포스터로 영화 목록 만들기
 
-## 15. Protocol
-
-## 16. Closure
-
-## 17. ErrorHandling
