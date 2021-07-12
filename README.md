@@ -25,7 +25,11 @@ Swift의 기본 타입과 변수, 상수
 
 ## 04. 컨트롤과 이벤트(iOS)
 
-## 05. 미니 프로젝트 : ColorSlider
+- ControlAndActionApp : iOS의 컨트롤과 이벤트 다루기
+
+## 05. 미니 프로젝트 : Value Changer
+
+- Value Changer : 버튼, 스테퍼, 슬라이더를 이용해서 하나의 값을 증가/감소 시키기
 
 ## 06. 커스텀 타입
 
@@ -39,6 +43,7 @@ Swift의 기본 타입과 변수, 상수
 
 
 ## 09. 테이블 뷰(iOS)
+
 
 ## 10. 미니 프로젝트 : MovieList
 
