@@ -14,10 +14,11 @@
 		2C69E530268DBD280016C511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69E52F268DBD280016C511 /* Assets.xcassets */; };
 		2C69E533268DBD280016C511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69E531268DBD280016C511 /* LaunchScreen.storyboard */; };
 		2C69E540268DDDAF0016C511 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C69E53F268DDDAF0016C511 /* README.md */; };
+		2CFC3548269C00B3004A842B /* ColorSliderProject.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC3547269C00B3004A842B /* ColorSliderProject.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C69E523268DBD260016C511 /* ColorSliderAnswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSliderAnswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C69E523268DBD260016C511 /* ColorSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C69E526268DBD260016C511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C69E528268DBD260016C511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C69E52A268DBD260016C511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		2C69E532268DBD280016C511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C69E534268DBD280016C511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C69E53F268DDDAF0016C511 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2CFC3547269C00B3004A842B /* ColorSliderProject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSliderProject.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +44,9 @@
 		2C69E51A268DBD260016C511 = {
 			isa = PBXGroup;
 			children = (
+				2CFC3547269C00B3004A842B /* ColorSliderProject.png */,
 				2C69E53F268DDDAF0016C511 /* README.md */,
-				2C69E525268DBD260016C511 /* ColorSliderQuiz */,
+				2C69E525268DBD260016C511 /* ColorSlider */,
 				2C69E524268DBD260016C511 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +54,12 @@
 		2C69E524268DBD260016C511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C69E523268DBD260016C511 /* ColorSliderAnswer.app */,
+				2C69E523268DBD260016C511 /* ColorSlider.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C69E525268DBD260016C511 /* ColorSliderQuiz */ = {
+		2C69E525268DBD260016C511 /* ColorSlider */ = {
 			isa = PBXGroup;
 			children = (
 				2C69E526268DBD260016C511 /* AppDelegate.swift */,
@@ -67,15 +70,15 @@
 				2C69E531268DBD280016C511 /* LaunchScreen.storyboard */,
 				2C69E534268DBD280016C511 /* Info.plist */,
 			);
-			path = ColorSliderQuiz;
+			path = ColorSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C69E522268DBD260016C511 /* ColorSliderAnswer */ = {
+		2C69E522268DBD260016C511 /* ColorSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C69E537268DBD280016C511 /* Build configuration list for PBXNativeTarget "ColorSliderAnswer" */;
+			buildConfigurationList = 2C69E537268DBD280016C511 /* Build configuration list for PBXNativeTarget "ColorSlider" */;
 			buildPhases = (
 				2C69E51F268DBD260016C511 /* Sources */,
 				2C69E520268DBD260016C511 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorSliderAnswer;
+			name = ColorSlider;
 			productName = ColorSliderQuiz;
-			productReference = 2C69E523268DBD260016C511 /* ColorSliderAnswer.app */;
+			productReference = 2C69E523268DBD260016C511 /* ColorSlider.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C69E51E268DBD260016C511 /* Build configuration list for PBXProject "ColorSliderAnswer" */;
+			buildConfigurationList = 2C69E51E268DBD260016C511 /* Build configuration list for PBXProject "ColorSlider" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C69E522268DBD260016C511 /* ColorSliderAnswer */,
+				2C69E522268DBD260016C511 /* ColorSlider */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +133,7 @@
 				2C69E533268DBD280016C511 /* LaunchScreen.storyboard in Resources */,
 				2C69E530268DBD280016C511 /* Assets.xcassets in Resources */,
 				2C69E540268DDDAF0016C511 /* README.md in Resources */,
+				2CFC3548269C00B3004A842B /* ColorSliderProject.png in Resources */,
 				2C69E52E268DBD260016C511 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,12 +295,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ColorSliderQuiz/Info.plist;
+				INFOPLIST_FILE = ColorSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.ColorSliderQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.ColorSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,12 +313,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ColorSliderQuiz/Info.plist;
+				INFOPLIST_FILE = ColorSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.ColorSliderQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.ColorSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C69E51E268DBD260016C511 /* Build configuration list for PBXProject "ColorSliderAnswer" */ = {
+		2C69E51E268DBD260016C511 /* Build configuration list for PBXProject "ColorSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C69E535268DBD280016C511 /* Debug */,
@@ -333,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C69E537268DBD280016C511 /* Build configuration list for PBXNativeTarget "ColorSliderAnswer" */ = {
+		2C69E537268DBD280016C511 /* Build configuration list for PBXNativeTarget "ColorSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C69E538268DBD280016C511 /* Debug */,
