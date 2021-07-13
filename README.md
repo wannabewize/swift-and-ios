@@ -31,8 +31,10 @@ Swift의 기본 타입과 변수, 상수
 
 - Struct : 구조체, 프로퍼티
 - StructAndMethod : 구조체와 메소드, Mutating
+- Property : 프로퍼티 - Computed Property, Property Observer
 - ComplexType : 복합 타입 정의와 객체 생성. 사용
 - Class : 클래스 정의, 프로퍼티와 메소드
+- Enum : Enum 으로 커스텀 타입
 - ValueTypeAndReferenceType : 밸류 타입과 레퍼런스 타입
 
 ## 07. 레이아웃(iOS)
