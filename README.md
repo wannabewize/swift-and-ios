@@ -25,7 +25,11 @@ Swift의 기본 타입과 변수, 상수
 
 ## 04. 컨트롤과 이벤트(iOS)
 
-## 05. 미니 프로젝트 : ColorSlider
+- ControlAndActionApp : iOS의 컨트롤과 이벤트 다루기
+
+## 05. 미니 프로젝트 : Value Changer
+
+- Value Changer : 버튼, 스테퍼, 슬라이더를 이용해서 하나의 값을 증가/감소 시키기
 
 ## 06. 커스텀 타입
 
@@ -39,10 +43,11 @@ Swift의 기본 타입과 변수, 상수
 
 ## 07. 레이아웃(iOS)
 
+- LayoutExample : Constraint를 이용한 레이아웃, 스택뷰, 이미지 애셋
 
-## 09. 테이블 뷰(iOS)
+## 08. 미니 프로젝트 : ColorSlider
 
-## 10. 미니 프로젝트 : MovieList
+- ColorSlider : 슬라이더를 이용해서 R-G-B 방식으로 색 설정하기
 
 ## 09. 옵셔널
 
@@ -57,14 +62,11 @@ Swift의 기본 타입과 변수, 상수
 - ComplexCollection : 복합 콜렉션 구조
 - CustomTypeAndCollection : 커스텀 타입과 콜렉션
 
-## 12. 내비게이션으로 씬 전환(iOS)
+## 11. 테이블 뷰
 
-## 13. 커스텀 타입
+- TableExample : 테이블 뷰 예제
 
-## 14. 미니 프로젝트 : MovieListAndDetail
+## 12. 미니 프로젝트 : MovieList
 
-## 15. Protocol
+- MovieListApp : 커스텀 타입으로 데이터 정의, 영화 제목,감독,포스터로 영화 목록 만들기
 
-## 16. Closure
-
-## 17. ErrorHandling
