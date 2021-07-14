@@ -37,6 +37,10 @@ for item in strArray {
     print("For and Array ", item)
 }
 
+for index in 0..<strArray.count {
+    print("For and Array. Index: \(index), Item: \(strArray[index])")
+}
+
 // 인덱스가 벗어나면 에러 - fatal error: Index out of range
 // let element3 = strArray[3]
 
@@ -70,13 +74,17 @@ print("editableArray.insert(4, at: 3): ", editableArray)
 
 // 삭제하기
 print("\n== 배열 내 원소 삭제")
-editableArray.removeLast() // 5
-print("editableArray.removeLast() : ",editableArray) // [1, 2, 3, 4]
+let removed1 = editableArray.removeLast() // 5
+print("editableArray.removeLast() : ",editableArray, "removed:", removed1) // [1, 2, 3, 4]
 
 // index 2 원소 지우기
-editableArray.remove(at:2) // 3
-print("editableArray.remove(at:2) : ", editableArray) // [1, 2, 4]
+let removed2 = editableArray.remove(at:2) // 3
+print("editableArray.remove(at:2) : ", editableArray, "removed:", removed2) // [1, 2, 4]
 
-// 배열 내 원소 변경
-editableArray[2] = 3
-print("intArray : ", editableArray) // [1, 2, 3]
+// 배열 내 원소 수정
+print("== 배열 내 원소 수정 ==")
+editableArray[2] = 4
+print("intArray[2] = 4 =>", editableArray) // [1, 2, 4]
+// 범위를 이용한 수정
+editableArray[1...2] = [2, 3, 4, 5]
+print("intArray[1...2] = [2, 3, 4, 5] =>", editableArray) // [1, 2, 3, 4, 5]
