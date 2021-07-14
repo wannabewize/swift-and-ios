@@ -13,9 +13,9 @@
 		2C376F03269F41EF001ECE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C376F01269F41EF001ECE9F /* Main.storyboard */; };
 		2C376F05269F41EF001ECE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C376F04269F41EF001ECE9F /* Assets.xcassets */; };
 		2C376F08269F41EF001ECE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C376F06269F41EF001ECE9F /* LaunchScreen.storyboard */; };
-		2C376F10269F420F001ECE9F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C376F0F269F420F001ECE9F /* Movie.swift */; };
 		2C376F14269F4279001ECE9F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C376F13269F4279001ECE9F /* MovieDetailViewController.swift */; };
 		2C376F16269F4841001ECE9F /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C376F15269F4841001ECE9F /* MovieListViewController.swift */; };
+		2C376F1E269F4C7D001ECE9F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C376F1D269F4C7D001ECE9F /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		2C376F04269F41EF001ECE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C376F07269F41EF001ECE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C376F09269F41EF001ECE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C376F0F269F420F001ECE9F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../../../12.MovieListApp/MovieList/MovieListApp/Movie.swift; sourceTree = "<group>"; };
 		2C376F13269F4279001ECE9F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		2C376F15269F4841001ECE9F /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		2C376F1D269F4C7D001ECE9F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 		2C376EFA269F41EF001ECE9F /* FavoriteNetflixApp */ = {
 			isa = PBXGroup;
 			children = (
-				2C376F0F269F420F001ECE9F /* Movie.swift */,
 				2C376F15269F4841001ECE9F /* MovieListViewController.swift */,
 				2C376EFB269F41EF001ECE9F /* AppDelegate.swift */,
 				2C376EFD269F41EF001ECE9F /* SceneDelegate.swift */,
@@ -72,6 +71,7 @@
 				2C376F06269F41EF001ECE9F /* LaunchScreen.storyboard */,
 				2C376F09269F41EF001ECE9F /* Info.plist */,
 				2C376F13269F4279001ECE9F /* MovieDetailViewController.swift */,
+				2C376F1D269F4C7D001ECE9F /* Movie.swift */,
 			);
 			path = FavoriteNetflixApp;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				2C376F00269F41EF001ECE9F /* ViewController.swift in Sources */,
 				2C376EFC269F41EF001ECE9F /* AppDelegate.swift in Sources */,
-				2C376F10269F420F001ECE9F /* Movie.swift in Sources */,
+				2C376F1E269F4C7D001ECE9F /* Movie.swift in Sources */,
 				2C376F16269F4841001ECE9F /* MovieListViewController.swift in Sources */,
 				2C376F14269F4279001ECE9F /* MovieDetailViewController.swift in Sources */,
 				2C376EFE269F41EF001ECE9F /* SceneDelegate.swift in Sources */,

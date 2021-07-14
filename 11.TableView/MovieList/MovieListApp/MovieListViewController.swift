@@ -1,14 +1,13 @@
 //
 //  MovieListViewController.swift
-//  FavoriteNetflix
+//  MovieListApp
 //
-//  Created by MRF on 2021/04/19.
+//  Created by MRF on 2021/07/15.
 //
 
 import UIKit
 
 class MovieListViewController: UITableViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Favorite Netflix"
