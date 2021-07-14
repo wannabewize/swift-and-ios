@@ -59,6 +59,7 @@ Swift의 기본 타입과 변수, 상수
 
 ## 10. 콜렉션
 
+- Tuple : 튜플
 - Array : 배열
 - Dictionary : 딕셔너리
 - ComplexCollection : 복합 콜렉션 구조
@@ -71,4 +72,8 @@ Swift의 기본 타입과 변수, 상수
 ## 12. 미니 프로젝트 : MovieList
 
 - MovieListApp : 커스텀 타입으로 데이터 정의, 영화 제목,감독,포스터로 영화 목록 만들기
+
+## 13. 마스터 디테일
+
+- NavigationControllerApp : 내비게이션 컨트롤러를 이용한 씬 전환, 데이터 전달
 
