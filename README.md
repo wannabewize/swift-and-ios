@@ -45,6 +45,8 @@ Swift의 기본 타입과 변수, 상수
 
 - LayoutExample : Constraint를 이용한 레이아웃, 스택뷰, 이미지 애셋
 
+## 08. 레이아웃 예제 : Movie Detail
+
 ## 08. 미니 프로젝트 : ColorSlider
 
 - ColorSlider : 슬라이더를 이용해서 R-G-B 방식으로 색 설정하기
