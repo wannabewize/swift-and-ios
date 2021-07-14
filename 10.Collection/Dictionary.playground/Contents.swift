@@ -36,6 +36,9 @@ dic["4월"] = "잔인한 달"
 
 print("dic : ", dic)
 
-dic.removeValue(forKey:"2월")
+// 딕셔너리에서 원소 삭제하기
+let removed = dic.removeValue(forKey:"2월")
+print("removed :", removed!)
+
 dic["3월"] = nil
 print("dic[3월] = nil : ", dic)
