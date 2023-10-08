@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:01.Data"
+      name = "01.Data">
+      <FileRef
+         location = "group:VarAndConstant.playground">
+      </FileRef>
+      <FileRef
+         location = "group:FloatAndDoubleType.playground">
+      </FileRef>
+      <FileRef
+         location = "group:StringType.playground">
+      </FileRef>
+      <FileRef
+         location = "group:RangeType.playground">
+      </FileRef>
+      <FileRef
+         location = "group:IntType.playground">
+      </FileRef>
+      <FileRef
+         location = "group:CustomType.playground">
+      </FileRef>
+      <FileRef
+         location = "group:NilAndOptional.playground">
+      </FileRef>
+   </Group>
+</Workspace>

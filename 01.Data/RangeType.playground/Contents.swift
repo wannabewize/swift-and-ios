@@ -19,7 +19,6 @@ print("1...10 upperBound :", range1.upperBound)
 
 // Double Type Range
 let range2 = 1.1..<1.9
-
 // 범위 내 개수 - 사용 불가
 //print("1.1..<1.9 count :", range2.count)
 

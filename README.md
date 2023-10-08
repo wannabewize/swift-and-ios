@@ -2,13 +2,19 @@
 
 ## 01. 데이터 다루기
 
-Swift의 기본 타입과 변수, 상수
+### 기본 타입과 변수, 상수
 
 - VarAndConstant : 변수와 상수
 - IntType : 정수형 타입
 - StringType : 문자열 타입
 - FloatDoubleType : 실수형 타입
 - RangeType : 범위
+
+### 옵셔널(Optional) 타입으로 nil 다루기
+- NilAndOptional
+
+### 구조체로 커스텀 타입 정의하기
+- CustomType
 
 ## 02. 데이터 출력 앱 작성하기(iOS)
 
