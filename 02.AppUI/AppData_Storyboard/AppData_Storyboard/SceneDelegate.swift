@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  DataAndApp
+//  AppData_Storyboard
 //
-//  Created by Jaehoon Lee on 2021/07/11.
+//  Created by wannabewize on 10/9/23.
 //
 
 import UIKit
