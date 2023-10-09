@@ -26,4 +26,210 @@
          location = "group:NilAndOptional.playground">
       </FileRef>
    </Group>
+   <Group
+      location = "group:02.DataAndApp"
+      name = "02.DataAndApp">
+      <Group
+         location = "group:AppUI_Code"
+         name = "AppUI_Code">
+         <FileRef
+            location = "group:AppUI_Code.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:AppUI_Code"
+            name = "AppUI_Code">
+            <FileRef
+               location = "group:ViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AccentColor.colorset"
+                  name = "AccentColor.colorset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:model_s.imageset"
+                  name = "model_s.imageset">
+                  <FileRef
+                     location = "group:model_s@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:model_s@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:model_s.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SceneDelegate.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:AppUI_SwiftUI"
+         name = "AppUI_SwiftUI">
+         <Group
+            location = "group:AppUI_SwiftUI"
+            name = "AppUI_SwiftUI">
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AccentColor.colorset"
+                  name = "AccentColor.colorset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:model_s.imageset"
+                  name = "model_s.imageset">
+                  <FileRef
+                     location = "group:model_s@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:model_s@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:model_s.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Preview Content"
+               name = "Preview Content">
+               <Group
+                  location = "group:Preview Assets.xcassets"
+                  name = "Preview Assets.xcassets">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:AppUI_SwiftUIApp.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ContentView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppUI_SwiftUI.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AppUI_Storyboard"
+         name = "AppUI_Storyboard">
+         <FileRef
+            location = "group:AppUI_Storyboard.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:AppUI_Storyboard"
+            name = "AppUI_Storyboard">
+            <FileRef
+               location = "group:ViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AccentColor.colorset"
+                  name = "AccentColor.colorset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SceneDelegate.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Resources"
+         name = "Resources">
+         <FileRef
+            location = "group:model_s@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:model_s@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:model_s.png">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
