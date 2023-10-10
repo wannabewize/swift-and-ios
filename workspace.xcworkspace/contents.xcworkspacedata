@@ -273,90 +273,12 @@
    <Group
       location = "group:04.Layout"
       name = "04.Layout">
+   </Group>
+   <Group
+      location = "group:/Users/wannabewize/Projects/Wannabewize/swift-and-ios/05.DataAndApp"
+      name = "05.DataAndApp">
       <Group
-         location = "group:DataAndApp_SwiftUI"
-         name = "DataAndApp_SwiftUI">
-         <Group
-            location = "group:DataAndApp_SwiftUI"
-            name = "DataAndApp_SwiftUI">
-            <FileRef
-               location = "group:Model.swift">
-            </FileRef>
-            <Group
-               location = "group:Assets.xcassets"
-               name = "Assets.xcassets">
-               <Group
-                  location = "group:movie2.imageset"
-                  name = "movie2.imageset">
-                  <FileRef
-                     location = "group:movie2.jpg">
-                  </FileRef>
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-               <Group
-                  location = "group:AppIcon.appiconset"
-                  name = "AppIcon.appiconset">
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-               <Group
-                  location = "group:AccentColor.colorset"
-                  name = "AccentColor.colorset">
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <Group
-                  location = "group:movie1.imageset"
-                  name = "movie1.imageset">
-                  <FileRef
-                     location = "group:movie1.jpg">
-                  </FileRef>
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-               <Group
-                  location = "group:moving_image.imageset"
-                  name = "moving_image.imageset">
-                  <FileRef
-                     location = "group:moving_image.png">
-                  </FileRef>
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-            </Group>
-            <Group
-               location = "group:Preview Content"
-               name = "Preview Content">
-               <Group
-                  location = "group:Preview Assets.xcassets"
-                  name = "Preview Assets.xcassets">
-                  <FileRef
-                     location = "group:Contents.json">
-                  </FileRef>
-               </Group>
-            </Group>
-            <FileRef
-               location = "group:DataAndApp_SwiftUIApp.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView.swift">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:DataAndApp_SwiftUI.xcodeproj">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:DataAndApp_Storyboard"
+         location = "group:/Users/wannabewize/Projects/Wannabewize/swift-and-ios/05.DataAndApp/DataAndApp_Storyboard"
          name = "DataAndApp_Storyboard">
          <Group
             location = "group:DataAndApp_Storyboard"
@@ -440,6 +362,88 @@
          </Group>
          <FileRef
             location = "group:DataAndApp_Storyboard.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/wannabewize/Projects/Wannabewize/swift-and-ios/05.DataAndApp/DataAndApp_SwiftUI"
+         name = "DataAndApp_SwiftUI">
+         <Group
+            location = "group:DataAndApp_SwiftUI"
+            name = "DataAndApp_SwiftUI">
+            <FileRef
+               location = "group:Model.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:movie2.imageset"
+                  name = "movie2.imageset">
+                  <FileRef
+                     location = "group:movie2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AccentColor.colorset"
+                  name = "AccentColor.colorset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:movie1.imageset"
+                  name = "movie1.imageset">
+                  <FileRef
+                     location = "group:movie1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:moving_image.imageset"
+                  name = "moving_image.imageset">
+                  <FileRef
+                     location = "group:moving_image.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Preview Content"
+               name = "Preview Content">
+               <Group
+                  location = "group:Preview Assets.xcassets"
+                  name = "Preview Assets.xcassets">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:DataAndApp_SwiftUIApp.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ContentView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DataAndApp_SwiftUI.xcodeproj">
          </FileRef>
       </Group>
    </Group>
