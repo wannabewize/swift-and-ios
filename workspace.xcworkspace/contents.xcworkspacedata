@@ -447,4 +447,12 @@
          </FileRef>
       </Group>
    </Group>
+   <Group
+      location = "group:06.Function"
+      name = "06.Function">
+   </Group>
+   <Group
+      location = "group:07.InteractiveApp"
+      name = "07.InteractiveApp">
+   </Group>
 </Workspace>
