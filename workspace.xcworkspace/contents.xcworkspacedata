@@ -249,8 +249,11 @@
       </Group>
    </Group>
    <Group
-      location = "group:/Users/wannabewize/Projects/MySamples/swift-and-ios/03.OptionalAndControl"
+      location = "group:03.OptionalAndControl"
       name = "03.OptionalAndControl">
+      <FileRef
+         location = "group:Loop.playground">
+      </FileRef>
       <FileRef
          location = "group:Optional.playground">
       </FileRef>
@@ -258,16 +261,13 @@
          location = "group:OptionalChain.playground">
       </FileRef>
       <FileRef
-         location = "group:Unwrapping.playground">
-      </FileRef>
-      <FileRef
-         location = "group:/Users/wannabewize/Projects/MySamples/swift-and-ios/03.OptionalAndControl/Conditional.playground">
-      </FileRef>
-      <FileRef
          location = "group:SwitchCase.playground">
       </FileRef>
       <FileRef
-         location = "group:Loop.playground">
+         location = "group:Unwrapping.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Conditional.playground">
       </FileRef>
    </Group>
    <Group
