@@ -32,7 +32,7 @@ drive("Mountain", "Brother") // Drive Mountain Brother
 
 
 //
-// ambiguous. No error occur in Swift3
+// Ambiguous. Default parameter로 어떤 함수가 호출될지 모르는 상태
 //
 
 func sayHello() {
@@ -48,6 +48,7 @@ func sayHello(person : String, msg : String = "How are you") {
    print("\(msg) \(person)")
 }
 
+// 어떤 함수가 호출되는가?
 sayHello()
 sayHello(person: "Mom")
 sayHello(person: "Friend", msg: "Good morning")
