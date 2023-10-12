@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C0305D92AD46E6A0075BCCE /* DataAndApp_Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataAndApp_Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0305D92AD46E6A0075BCCE /* DataAndApp_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataAndApp_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0305DC2AD46E6A0075BCCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C0305DE2AD46E6A0075BCCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C0305E02AD46E6A0075BCCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		2C0305D02AD46E6A0075BCCE = {
 			isa = PBXGroup;
 			children = (
-				2C0305DB2AD46E6A0075BCCE /* DataAndApp_Storyboard */,
+				2C0305DB2AD46E6A0075BCCE /* DataAndApp_UIKit */,
 				2C0305DA2AD46E6A0075BCCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +50,32 @@
 		2C0305DA2AD46E6A0075BCCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C0305D92AD46E6A0075BCCE /* DataAndApp_Storyboard.app */,
+				2C0305D92AD46E6A0075BCCE /* DataAndApp_UIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C0305DB2AD46E6A0075BCCE /* DataAndApp_Storyboard */ = {
+		2C0305DB2AD46E6A0075BCCE /* DataAndApp_UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				2C0305DC2AD46E6A0075BCCE /* AppDelegate.swift */,
 				2C0305DE2AD46E6A0075BCCE /* SceneDelegate.swift */,
 				2C0305E02AD46E6A0075BCCE /* ViewController.swift */,
+				2C03060A2AD478D80075BCCE /* Model.swift */,
 				2C0305E22AD46E6A0075BCCE /* Main.storyboard */,
 				2C0305E52AD46E6B0075BCCE /* Assets.xcassets */,
 				2C0305E72AD46E6B0075BCCE /* LaunchScreen.storyboard */,
 				2C0305EA2AD46E6B0075BCCE /* Info.plist */,
-				2C03060A2AD478D80075BCCE /* Model.swift */,
 			);
-			path = DataAndApp_Storyboard;
+			path = DataAndApp_UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C0305D82AD46E6A0075BCCE /* DataAndApp_Storyboard */ = {
+		2C0305D82AD46E6A0075BCCE /* DataAndApp_UIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C0305ED2AD46E6B0075BCCE /* Build configuration list for PBXNativeTarget "DataAndApp_Storyboard" */;
+			buildConfigurationList = 2C0305ED2AD46E6B0075BCCE /* Build configuration list for PBXNativeTarget "DataAndApp_UIKit" */;
 			buildPhases = (
 				2C0305D52AD46E6A0075BCCE /* Sources */,
 				2C0305D62AD46E6A0075BCCE /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = DataAndApp_Storyboard;
+			name = DataAndApp_UIKit;
 			productName = DataAndApp_Storyboard;
-			productReference = 2C0305D92AD46E6A0075BCCE /* DataAndApp_Storyboard.app */;
+			productReference = 2C0305D92AD46E6A0075BCCE /* DataAndApp_UIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C0305D42AD46E6A0075BCCE /* Build configuration list for PBXProject "DataAndApp_Storyboard" */;
+			buildConfigurationList = 2C0305D42AD46E6A0075BCCE /* Build configuration list for PBXProject "DataAndApp_UIKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C0305D82AD46E6A0075BCCE /* DataAndApp_Storyboard */,
+				2C0305D82AD46E6A0075BCCE /* DataAndApp_UIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DataAndApp_Storyboard/Info.plist;
+				INFOPLIST_FILE = DataAndApp_UIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wannabewize.example.DataAndApp-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.DataAndApp.uikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DataAndApp_Storyboard/Info.plist;
+				INFOPLIST_FILE = DataAndApp_UIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wannabewize.example.DataAndApp-Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.wannabewize.example.DataAndApp.uikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C0305D42AD46E6A0075BCCE /* Build configuration list for PBXProject "DataAndApp_Storyboard" */ = {
+		2C0305D42AD46E6A0075BCCE /* Build configuration list for PBXProject "DataAndApp_UIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C0305EB2AD46E6B0075BCCE /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C0305ED2AD46E6B0075BCCE /* Build configuration list for PBXNativeTarget "DataAndApp_Storyboard" */ = {
+		2C0305ED2AD46E6B0075BCCE /* Build configuration list for PBXNativeTarget "DataAndApp_UIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C0305EE2AD46E6B0075BCCE /* Debug */,
