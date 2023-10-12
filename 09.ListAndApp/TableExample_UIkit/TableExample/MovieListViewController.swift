@@ -10,7 +10,6 @@ import UIKit
 class MovieListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Favorite Netflix"
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

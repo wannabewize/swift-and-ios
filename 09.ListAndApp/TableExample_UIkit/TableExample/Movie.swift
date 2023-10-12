@@ -8,7 +8,9 @@
 
 import Foundation
 
-struct Movie {
+struct Movie: Identifiable {
+    let id = UUID()
+    
     var title: String
     var director: String
     var actor: String

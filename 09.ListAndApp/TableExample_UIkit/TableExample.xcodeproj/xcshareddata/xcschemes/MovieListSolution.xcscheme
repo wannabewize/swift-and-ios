@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2CC7AEF4268E09CA0029EA82"
                BuildableName = "MovieListApp.app"
                BlueprintName = "MovieListApp"
-               ReferencedContainer = "container:MovieListApp.xcodeproj">
+               ReferencedContainer = "container:TableExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "2CC7AEF4268E09CA0029EA82"
             BuildableName = "MovieListApp.app"
             BlueprintName = "MovieListApp"
-            ReferencedContainer = "container:MovieListApp.xcodeproj">
+            ReferencedContainer = "container:TableExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "2CC7AEF4268E09CA0029EA82"
             BuildableName = "MovieListApp.app"
             BlueprintName = "MovieListApp"
-            ReferencedContainer = "container:MovieListApp.xcodeproj">
+            ReferencedContainer = "container:TableExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
