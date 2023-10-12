@@ -14,6 +14,7 @@ struct ContentView: View {
     
     @State var isAlertVisible: Bool = false
     @State var isActionSheetVisible: Bool = false
+    @State var selectedDate: Date = Date()
     
     @State var textInput: String = ""
 
@@ -107,6 +108,7 @@ struct ContentView: View {
                 Text("입력된 내용 : \(textInput)")
             }
             
+            DatePicker("Date Picker", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
             
             Spacer()
         }

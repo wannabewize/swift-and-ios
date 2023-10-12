@@ -111,8 +111,9 @@ class ViewController: UIViewController {
     }
     // didEndOnExit 이벤트 - 엔터키로 편집 종료. 키보드 감추기
     @IBAction func onDidEndOnExit(_ sender: Any) {
-        
     }
+    
+    
     
     
     override func viewWillAppear(_ animated: Bool) {

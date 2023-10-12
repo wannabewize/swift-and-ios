@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j9Z-ZD-cNh">
-                                <rect key="frame" x="20" y="68" width="374" height="320"/>
+                                <rect key="frame" x="20" y="68" width="374" height="390"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="I2Q-K2-Tgk">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
@@ -131,6 +131,9 @@
                                             </label>
                                         </subviews>
                                     </stackView>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="e6M-6A-iru">
+                                        <rect key="frame" x="0.0" y="340" width="374" height="50"/>
+                                    </datePicker>
                                 </subviews>
                             </stackView>
                         </subviews>
